@@ -1,0 +1,368 @@
+{
+  "ru": {
+    "header": {
+      "title": "Калькулятор углеродного следа КМГ"
+    },
+    "welcome": {
+      "title": "Узнайте свой углеродный след",
+      "subtitle": "Ответьте на несколько простых вопросов, чтобы узнать свое влияние на окружающую среду и получить советы по его снижению.",
+      "startBtn": "Начать",
+      "advancedMode": "Расширенный режим (точные данные)",
+      "simpleMode": "Простой режим (примерные оценки)"
+    },
+    "buttons": {
+      "next": "Далее",
+      "back": "Назад",
+      "finish": "Узнать результат",
+      "startOver": "Начать заново"
+    },
+    "questions": {
+      "electricity": {
+        "title": "Электроэнергия",
+        "q1": "Сколько электроэнергии потребляет ваше домохозяйство в месяц?",
+        "q2": "Сколько человек проживает с вами?",
+        "options": {
+          "very_low": "Очень мало (< 100 кВт⋅ч)",
+          "low": "Мало (100 - 200 кВт⋅ч)",
+          "medium": "Средне (200 - 400 кВт⋅ч)",
+          "high": "Много (400 - 600 кВт⋅ч)",
+          "very_high": "Очень много (> 600 кВт⋅ч)"
+        },
+        "exactLabel": "Точное значение (кВт⋅ч/мес)"
+      },
+      "heating": {
+        "title": "Отопление дома",
+        "q1": "Что вы используете для отопления?",
+        "options": {
+          "natural_gas": "Природный газ",
+          "district": "Центральное отопление",
+          "coal": "Уголь",
+          "electric": "Электричество",
+          "not_sure": "Не уверен"
+        },
+        "exactLabelGas": "Расход газа (м³/мес)"
+      },
+      "car": {
+        "title": "Личный автомобиль",
+        "q1": "Используете ли вы регулярно личный автомобиль?",
+        "yes": "Да",
+        "no": "Нет",
+        "q2": "Тип топлива",
+        "fuel": {
+          "gasoline": "Бензин",
+          "diesel": "Дизель",
+          "hybrid": "Гибрид",
+          "ev": "Электромобиль"
+        },
+        "q3": "Примерное расстояние в неделю (км)?",
+        "q4": "Сколько человек обычно едут в машине?",
+        "people": {
+          "1": "Только я",
+          "2": "Двое",
+          "3": "Трое",
+          "4": "Четверо и более"
+        }
+      },
+      "public_transport": {
+        "title": "Общественный транспорт",
+        "q1": "Как часто вы пользуетесь общественным транспортом?",
+        "freq": {
+          "never": "Никогда",
+          "rarely": "1-2 дня в неделю",
+          "often": "3-4 дня в неделю",
+          "daily": "5+ дней в неделю"
+        },
+        "q2": "Обычное расстояние (туда и обратно) в эти дни (км)?"
+      },
+      "flights": {
+        "title": "Перелеты",
+        "q1": "Сколько перелетов вы совершили за последние 12 месяцев? (в одну сторону)",
+        "domestic": "Внутренние рейсы (по Казахстану)",
+        "short_haul": "Международные (короткие, до 4 часов)",
+        "long_haul": "Международные (длинные, более 4 часов)",
+        "cabin": {
+          "economy": "Эконом",
+          "business": "Бизнес"
+        }
+      },
+      "waste": {
+        "title": "Отходы",
+        "q1": "Сколько стандартных пакетов мусора вы выбрасываете в неделю?",
+        "q2": "Вы сортируете мусор?",
+        "freq": {
+          "never": "Никогда",
+          "sometimes": "Иногда",
+          "usually": "Обычно"
+        }
+      }
+    },
+    "results": {
+      "title": "Ваш углеродный след",
+      "total": "Всего",
+      "kg": "кг CO₂-экв/год",
+      "t": "т CO₂-экв/год",
+      "breakdown": "По категориями",
+      "highest": "Ваш самый большой вклад вносит: {category}.",
+      "recommendations": "Рекомендации",
+      "transparencyBtn": "Как это рассчитано?",
+      "disclaimer": "Это примерная персональная оценка. Некоторые коэффициенты являются специфичными для Казахстана, другие - региональными или международными."
+    },
+    "transparency": {
+      "title": "Прозрачность расчетов",
+      "formula": "Формула",
+      "coefficient": "Коэффициент",
+      "source": "Источник",
+      "confidence": "Уровень достоверности",
+      "close": "Закрыть"
+    },
+    "errors": {
+      "required": "Обязательное поле",
+      "invalidNumber": "Пожалуйста, введите корректное число",
+      "negative": "Значение не может быть отрицательным"
+    }
+  },
+  "kk": {
+    "header": {
+      "title": "ҚМГ көміртегі ізі калькуляторы"
+    },
+    "welcome": {
+      "title": "Өз көміртегі ізіңізді біліңіз",
+      "subtitle": "Қоршаған ортаға тигізетін әсеріңізді білу және оны азайту бойынша кеңестер алу үшін бірнеше қарапайым сұраққа жауап беріңіз.",
+      "startBtn": "Бастау",
+      "advancedMode": "Кеңейтілген режим (дәл деректер)",
+      "simpleMode": "Қарапайым режим (шамамен бағалау)"
+    },
+    "buttons": {
+      "next": "Келесі",
+      "back": "Артқа",
+      "finish": "Нәтижені көру",
+      "startOver": "Қайта бастау"
+    },
+    "questions": {
+      "electricity": {
+        "title": "Электр энергиясы",
+        "q1": "Сіздің үйіңіз айына қанша электр энергиясын тұтынады?",
+        "q2": "Сізбен бірге қанша адам тұрады?",
+        "options": {
+          "very_low": "Өте аз (< 100 кВт⋅сағ)",
+          "low": "Аз (100 - 200 кВт⋅сағ)",
+          "medium": "Орташа (200 - 400 кВт⋅сағ)",
+          "high": "Көп (400 - 600 кВт⋅сағ)",
+          "very_high": "Өте көп (> 600 кВт⋅сағ)"
+        },
+        "exactLabel": "Дәл мәні (кВт⋅сағ/ай)"
+      },
+      "heating": {
+        "title": "Үйді жылыту",
+        "q1": "Жылыту үшін не қолданасыз?",
+        "options": {
+          "natural_gas": "Табиғи газ",
+          "district": "Орталық жылыту",
+          "coal": "Көмір",
+          "electric": "Электр энергиясы",
+          "not_sure": "Сенімді емеспін"
+        },
+        "exactLabelGas": "Газ шығыны (м³/ай)"
+      },
+      "car": {
+        "title": "Жеке автокөлік",
+        "q1": "Жеке көлікті жиі пайдаланасыз ба?",
+        "yes": "Иә",
+        "no": "Жоқ",
+        "q2": "Жанармай түрі",
+        "fuel": {
+          "gasoline": "Бензин",
+          "diesel": "Дизель",
+          "hybrid": "Гибрид",
+          "ev": "Электромобиль"
+        },
+        "q3": "Аптасына шамамен қашықтық (км)?",
+        "q4": "Көлікте әдетте қанша адам жүреді?",
+        "people": {
+          "1": "Тек мен",
+          "2": "Екеу",
+          "3": "Үшеу",
+          "4": "Төртеу және одан көп"
+        }
+      },
+      "public_transport": {
+        "title": "Қоғамдық көлік",
+        "q1": "Қоғамдық көлікті қаншалықты жиі пайдаланасыз?",
+        "freq": {
+          "never": "Ешқашан",
+          "rarely": "Аптасына 1-2 күн",
+          "often": "Аптасына 3-4 күн",
+          "daily": "Аптасына 5+ күн"
+        },
+        "q2": "Бұл күндердегі әдеттегі қашықтық (барып-қайту) (км)?"
+      },
+      "flights": {
+        "title": "Ұшулар",
+        "q1": "Соңғы 12 айда қанша рет ұштыңыз? (бір бағытта)",
+        "domestic": "Ішкі рейстер (Қазақстан бойынша)",
+        "short_haul": "Халықаралық (қысқа, 4 сағатқа дейін)",
+        "long_haul": "Халықаралық (ұзақ, 4 сағаттан көп)",
+        "cabin": {
+          "economy": "Эконом",
+          "business": "Бизнес"
+        }
+      },
+      "waste": {
+        "title": "Қалдықтар",
+        "q1": "Аптасына қанша стандартты қоқыс пакетін тастайсыз?",
+        "q2": "Қоқысты сұрыптайсыз ба?",
+        "freq": {
+          "never": "Ешқашан",
+          "sometimes": "Кейде",
+          "usually": "Әдетте"
+        }
+      }
+    },
+    "results": {
+      "title": "Сіздің көміртегі ізіңіз",
+      "total": "Барлығы",
+      "kg": "кг CO₂-экв/жыл",
+      "t": "т CO₂-экв/жыл",
+      "breakdown": "Санаттар бойынша",
+      "highest": "Сіздің ең үлкен үлесіңіз: {category}.",
+      "recommendations": "Ұсыныстар",
+      "transparencyBtn": "Бұл қалай есептелген?",
+      "disclaimer": "Бұл шамамен алынған жеке бағалау. Кейбір коэффициенттер Қазақстанға тән, басқалары аймақтық немесе халықаралық."
+    },
+    "transparency": {
+      "title": "Есептеу ашықтығы",
+      "formula": "Формула",
+      "coefficient": "Коэффициент",
+      "source": "Дереккөз",
+      "confidence": "Сенімділік деңгейі",
+      "close": "Жабу"
+    },
+    "errors": {
+      "required": "Міндетті өріс",
+      "invalidNumber": "Дұрыс сан енгізіңіз",
+      "negative": "Мән теріс бола алмайды"
+    }
+  },
+  "en": {
+    "header": {
+      "title": "KMG Carbon Footprint Calculator"
+    },
+    "welcome": {
+      "title": "Discover your carbon footprint",
+      "subtitle": "Answer a few simple questions to learn your environmental impact and get tips to reduce it.",
+      "startBtn": "Start",
+      "advancedMode": "Advanced Mode (exact data)",
+      "simpleMode": "Simple Mode (estimates)"
+    },
+    "buttons": {
+      "next": "Next",
+      "back": "Back",
+      "finish": "See Results",
+      "startOver": "Start Over"
+    },
+    "questions": {
+      "electricity": {
+        "title": "Home Electricity",
+        "q1": "How much electricity does your household use per month?",
+        "q2": "How many people live in your household?",
+        "options": {
+          "very_low": "Very low (< 100 kWh)",
+          "low": "Low (100 - 200 kWh)",
+          "medium": "Medium (200 - 400 kWh)",
+          "high": "High (400 - 600 kWh)",
+          "very_high": "Very high (> 600 kWh)"
+        },
+        "exactLabel": "Exact value (kWh/month)"
+      },
+      "heating": {
+        "title": "Home Heating",
+        "q1": "What do you mainly use for home heating?",
+        "options": {
+          "natural_gas": "Natural gas",
+          "district": "District heat",
+          "coal": "Coal",
+          "electric": "Electric heating",
+          "not_sure": "Not sure"
+        },
+        "exactLabelGas": "Gas usage (m³/month)"
+      },
+      "car": {
+        "title": "Private Car",
+        "q1": "Do you regularly use a private car?",
+        "yes": "Yes",
+        "no": "No",
+        "q2": "Fuel type",
+        "fuel": {
+          "gasoline": "Gasoline",
+          "diesel": "Diesel",
+          "hybrid": "Hybrid",
+          "ev": "Electric (EV)"
+        },
+        "q3": "Approximate distance per week (km)?",
+        "q4": "How many people usually share the car?",
+        "people": {
+          "1": "Just me",
+          "2": "Two",
+          "3": "Three",
+          "4": "Four or more"
+        }
+      },
+      "public_transport": {
+        "title": "Public Transport",
+        "q1": "How often do you use public transport?",
+        "freq": {
+          "never": "Never",
+          "rarely": "1-2 days/week",
+          "often": "3-4 days/week",
+          "daily": "5+ days/week"
+        },
+        "q2": "Typical round-trip distance on those days (km)?"
+      },
+      "flights": {
+        "title": "Flights",
+        "q1": "How many flights did you take in the past 12 months? (one-way)",
+        "domestic": "Domestic (within Kazakhstan)",
+        "short_haul": "Short-haul international (under 4 hrs)",
+        "long_haul": "Long-haul international (over 4 hrs)",
+        "cabin": {
+          "economy": "Economy",
+          "business": "Business"
+        }
+      },
+      "waste": {
+        "title": "Waste",
+        "q1": "How many standard garbage bags does your household throw away per week?",
+        "q2": "Do you recycle?",
+        "freq": {
+          "never": "Never",
+          "sometimes": "Sometimes",
+          "usually": "Usually"
+        }
+      }
+    },
+    "results": {
+      "title": "Your Carbon Footprint",
+      "total": "Total",
+      "kg": "kg CO₂e/year",
+      "t": "t CO₂e/year",
+      "breakdown": "Breakdown by Category",
+      "highest": "Your biggest impact comes from {category}.",
+      "recommendations": "Recommendations",
+      "transparencyBtn": "How was this calculated?",
+      "disclaimer": "This is an indicative personal estimate. Some coefficients are Kazakhstan-specific, others are regional or international defaults."
+    },
+    "transparency": {
+      "title": "Calculation Transparency",
+      "formula": "Formula",
+      "coefficient": "Coefficient",
+      "source": "Source",
+      "confidence": "Confidence Level",
+      "close": "Close"
+    },
+    "errors": {
+      "required": "Required field",
+      "invalidNumber": "Please enter a valid number",
+      "negative": "Value cannot be negative"
+    }
+  }
+}
